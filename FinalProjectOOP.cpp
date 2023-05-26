@@ -112,13 +112,13 @@ public:
         cin.ignore();
 
         if (num == 1) {
-          // fout.open( cl1+".csv", ios::out);
+           fout.open( "class1.csv", ios::out);
         } else if (num == 2) {
-          //fout.open(cl2 + ".csv", ios::out);
+          fout.open("class2.csv", ios::out);
         } else if (num == 3) {
-         //fout.open(cl3 + ".csv", ios::out);
+         fout.open("class3.csv", ios::out);
         } else if (num == 4) {
-         //fout.open(cl4 + ".csv", ios::out);
+         fout.open("class4.csv", ios::out);
         }
 
         if (!fout.is_open()) {
